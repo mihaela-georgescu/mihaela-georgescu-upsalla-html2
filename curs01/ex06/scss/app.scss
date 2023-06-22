@@ -1,0 +1,29 @@
+.squares {
+  width: 80%;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+@mixin square() {
+  display: block;
+  width: 200px;
+  height: 200px;
+  // ar fi mers si aspect-ratio:1
+  border: 1px solid black;
+  background: turquoise;
+}
+
+@mixin squareBg($color: aqua) {
+  background: $color;
+}
+
+.square {
+  @include square();
+}
+
+.square-magenta {
+  @include squareBg(magenta);
+}

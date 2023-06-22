@@ -1,0 +1,49 @@
+.line {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 0;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  border: 1px solid #000;
+}
+
+.box-1 {
+  border: 1 px dotted red;
+}
+
+.box-2 {
+  background-color: gray;
+}
+
+.box-3 {
+  border: 3 px dotted red;
+}
+
+.box-4 {
+  background-color: gray;
+}
+
+.box-5 {
+  border: 5 px dotted red;
+}
+
+.box-6 {
+  background-color: gray;
+}
+
+.box-7 {
+  border: 7 px dotted red;
+}
+
+.box-8 {
+  background-color: gray;
+}
+
+.box-9 {
+  border: 9 px dotted red;
+}
+
+/*# sourceMappingURL=style.css.map */
