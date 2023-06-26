@@ -27,3 +27,57 @@
 .square-magenta {
   @include squareBg(magenta);
 }
+
+.square-peru {
+  @include squareBg(peru);
+}
+
+.square-purple {
+  @include squareBg(purple);
+}
+
+.circles {
+  margin: 0 auto;
+  width: 75%;
+  border: 2px dotted brown;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@mixin circle() {
+  display: block;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid red;
+  background-color: purple;
+}
+
+@mixin circleBg($color: purple) {
+  background: $color;
+}
+
+@mixin circle-border($color: red) {
+  border: 3px solid $color;
+}
+
+.circle {
+  @include circle();
+}
+
+.circle-red {
+  @include circleBg(red);
+}
+
+.circle-border-blue {
+  @include circle-border(blue);
+}
+
+.circle-green {
+  @include circleBg(green);
+}
+
+.circle-blue {
+  @include circleBg(blue);
+}

@@ -5,4 +5,8 @@
 }
 
 @include btnClass('.btn-primary', 'color', purple);
+@include btnClass('.btn-secondary', 'color', blue);
+@include btnClass('.btn-inverted', 'background-color', transparent);
 @include btnClass('.btn-inverted-light', 'background-color', lightgray);
+@include btnClass('.btn-tertiary', 'color', green);
+@include btnClass('.btn-text-gray', 'color', gray);

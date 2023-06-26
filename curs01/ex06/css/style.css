@@ -19,4 +19,46 @@
   background: magenta;
 }
 
+.square-peru {
+  background: peru;
+}
+
+.square-purple {
+  background: purple;
+}
+
+.circles {
+  margin: 0 auto;
+  width: 75%;
+  border: 2px dotted brown;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.circle {
+  display: block;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid red;
+  background-color: purple;
+}
+
+.circle-red {
+  background: red;
+}
+
+.circle-border-blue {
+  border: 3px solid blue;
+}
+
+.circle-green {
+  background: green;
+}
+
+.circle-blue {
+  background: blue;
+}
+
 /*# sourceMappingURL=style.css.map */
