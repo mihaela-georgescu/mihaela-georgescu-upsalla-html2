@@ -41,3 +41,39 @@
   color: #fff;
 }
 /* please do not modify this code */
+
+/* insert code */
+
+.flex-container-03 {
+  align-items: flex-end;
+}
+
+.flex-container-03 > .underlay + .flex-item {
+  flex-grow: 1;
+}
+
+.flex-container-03 > :nth-last-child(2) {
+  flex-grow: 2;
+}
+
+/* insert code */
+
+.flex-container-05 {
+  align-items: flex-end;
+}
+
+.flex-container-05 > :nth-child(3) {
+  flex-grow: 1;
+}
+
+.flex-container-05 > :nth-child(3) + .flex-item {
+  flex-grow: 2;
+}
+
+.flex-container-06 {
+  flex-direction: row-reverse;
+}
+
+.flex-container-06 .third {
+  flex-grow: 1;
+}

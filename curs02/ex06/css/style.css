@@ -30,4 +30,24 @@
   border-style: none;
 }
 
+.m-xs {
+  margin: 4px;
+}
+
+.m-sm {
+  margin: 8px;
+}
+
+.m-md {
+  margin: 16px;
+}
+
+.m-lg {
+  margin: 32px;
+}
+
+.m-xl {
+  margin: 64px;
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,41 @@
+.bar-01 {
+  animation: bar-01 10s ease-in;
+}
+@keyframes bar-01 {
+  0% {
+    width: 50px;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+/* insert code */
+
+.bar-04 {
+  animation: bar-04 5s ease-out;
+}
+@keyframes bar-04 {
+  0%,
+  100% {
+    width: 100%;
+  }
+
+  25% {
+    width: 50%;
+    background-color: blue;
+  }
+
+  50% {
+    width: 50%;
+    background: black;
+  }
+
+  75% {
+    width: 150px;
+    background-color: orange;
+  }
+}
+
+/* insert code */

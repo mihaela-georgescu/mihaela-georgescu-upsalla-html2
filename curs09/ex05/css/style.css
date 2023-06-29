@@ -48,3 +48,32 @@ body {
   color: #fff;
 }
 /* please do not modify this code */
+
+ /* insert code */
+
+.flex-container-03 {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.flex-container-03 :nth-child(4) {
+  align-self: stretch;
+  width: unset;
+  max-width: unset;
+}
+
+ /* insert code */
+
+.flex-container-05 {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.flex-container-05 :nth-last-child(2) {
+  align-self: stretch;
+  width: unset;
+  max-width: unset;
+}
+  /* insert code */

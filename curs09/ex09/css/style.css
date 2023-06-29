@@ -57,3 +57,33 @@ body {
   left: 10px;
 }
 /* please do not modify this code */
+
+/* insert code */
+
+.flex-container-02 {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-container-02 > :first-child + div {
+  flex-shrink: 2;
+}
+
+.flex-container-02 :last-child {
+  flex-shrink: 3;
+}
+
+/* insert code */
+
+.flex-container-05 {
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.flex-container-05 :nth-last-child(2) {
+  flex-shrink: 2;
+}
+
+/* insert code */

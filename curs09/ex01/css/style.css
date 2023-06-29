@@ -37,3 +37,19 @@
   color: #fff;
 }
 /* please do not modify this code */
+
+/* insert code */
+
+.flex-container-04 {
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+/* insert code */
+
+.flex-container-06 {
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: flex-start;
+}

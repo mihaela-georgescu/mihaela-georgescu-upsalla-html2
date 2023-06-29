@@ -1,0 +1,73 @@
+/* anim1 */
+.animation01 {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.animation01 span {
+  text-transform: uppercase;
+  animation: blink 4s linear alternate infinite;
+  font-size: 35px;
+}
+@keyframes blink {
+  0%,
+  100% {
+    /* opacity: 0.5; */
+    color: black;
+  }
+
+  50% {
+    /* opacity: 0; */
+    color: white;
+  }
+}
+/* ./anim1 */
+
+/* anim2 */
+.animation02 {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.loader-y {
+  display: flex;
+  gap: 5px;
+}
+
+.loader-y span {
+  display: block;
+  width: 10px;
+  height: 10px;
+  background: black;
+  animation: bounce 1.2s linear infinite alternate;
+}
+
+.loader-y span:nth-child(2) {
+  animation-delay: 0.6s;
+}
+
+.loader-y span:nth-child(3) {
+  animation-delay: 1.2s;
+}
+
+.loader-y span:nth-child(34) {
+  animation-delay: 1.8s;
+}
+@keyframes bounce {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(-10px);
+  }
+}
+/* ./anim2 */
