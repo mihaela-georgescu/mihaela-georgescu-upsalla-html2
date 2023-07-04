@@ -37,3 +37,11 @@
   color: #fff;
 }
 /* please do not modify this code */
+
+.flex-container-01 {
+  flex-direction: row-reverse;
+}
+
+.flex-container-01 :nth-child(2) {
+  order: 1;
+}

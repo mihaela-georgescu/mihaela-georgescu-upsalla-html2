@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+  <title>Bootstrap offset</title>
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+    crossorigin="anonymous"
+  >
+</head>
+
+<body>
+  <main class="container mt-4 d-flex flex-column gap-3">
+    <section class="row bg-danger-subtle">
+      <div class="col-4 bg-danger border p-3 ">.col-4</div>
+
+      <div class="col-4 offset-4 bg-danger border p-3">.col-4 .offset-4</div>
+    </section>
+
+    <section class="row bg-danger-subtle">
+      <div class="col-3 offset-3 bg-danger border p-3">.col-3 .offset-3</div>
+
+      <div class="col-3 offset-3 bg-danger border p-3">.col-3 .offset-3</div>
+    </section>
+
+    <section class="row bg-danger-subtle">
+      <div class="col-6 offset-3 bg-danger border p-3">.col-6 .offset-3</div>
+      <!-- se putea centra si cu mx-auto in loc de offset-3 -->
+    </section>
+  </main>
+</body>
+
+</html>

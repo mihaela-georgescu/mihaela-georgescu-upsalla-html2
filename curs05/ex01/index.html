@@ -1,12 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+  <meta
+    http-equiv="X-UA-Compatible"
+    content="ie=edge"
+  >
   <title>Bootstrap Grid</title>
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+    crossorigin="anonymous"
+  >
+
+  <style>
+    .unit {
+      height: 180px;
+    }
+  </style>
 </head>
+
 <body>
-  
+  <main class="container mt-4">
+    <section class="row bg-danger mb-3 unit align-items-start text-white">
+      <div class="col border py-2">One of three columns</div>
+
+      <div class="col border py-2">One of three columns</div>
+
+      <div class="col border py-2">One of three columns</div>
+    </section>
+
+    <section class="row bg-success mb-3 unit align-items-center text-white">
+      <div class="col border py-2">One of three columns</div>
+
+      <div class="col border py-2">One of three columns</div>
+
+      <div class="col border py-2">One of three columns</div>
+    </section>
+
+    <section class="row bg-primary unit align-items-end text-white">
+      <div class="col border py-2">One of three columns</div>
+
+      <div class="col border py-2">One of three columns</div>
+
+      <div class="col border py-2">One of three columns</div>
+    </section>
+  </main>
 </body>
+
 </html>
