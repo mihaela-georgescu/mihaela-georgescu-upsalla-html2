@@ -49,7 +49,27 @@ body {
 }
 /* please do not modify this code */
 
-/* insert code */
+.flex-container-01 {
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.flex-container-01 .second {
+  flex-grow: 2;
+}
+
+.flex-container-01 :last-child {
+  flex-grow: 1;
+}
+
+.flex-container-02 {
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.flex-container-02 :nth-of-type(2) {
+  flex-grow: 1;
+}
 
 .flex-container-03 {
 flex-direction: column-reverse;
@@ -64,7 +84,14 @@ align-items: flex-end;
   flex-grow: 1;
 }
 
-/* insert code */
+.flex-container-04 {
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.flex-container-04 .first {
+  flex-grow: 1;
+}
 
 .flex-container-05 {
   flex-direction: column-reverse;
@@ -76,5 +103,14 @@ align-items: flex-end;
 }
 
 .flex-container-05 .two + .flex-item {
+  flex-grow: 1;
+}
+
+.flex-container-06 {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.flex-container-06 :last-of-type {
   flex-grow: 1;
 }

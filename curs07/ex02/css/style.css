@@ -30,5 +30,28 @@ body {
 }
 
 .box-2 {
+  animation: box-2 10s ease-out;
+}
+@keyframes box-2 {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+
+  20% {
+    transform: translateY(calc(100vh - var(--d)));
+  }
+
+  40% {
+    transform: translate(calc(100vw - var(--d)), calc(100vh - var(--d)));
+  }
+
+  60% {
+    transform: translate(calc(100vw - var(--d)), 0);
+  }
+
+  80% {
+    transform: translate(0, calc(100vh - var(--d)));
+  }
 
 }

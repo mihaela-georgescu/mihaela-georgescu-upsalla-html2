@@ -49,7 +49,25 @@ body {
 }
 /* please do not modify this code */
 
- /* insert code */
+.flex-container-01 {
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.flex-container-01 :last-child {
+  align-self: flex-start;
+}
+
+.flex-container-02 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-container-02 :nth-of-type(5) {
+  align-self: flex-end;
+}
 
 .flex-container-03 {
   flex-direction: column;
@@ -63,7 +81,15 @@ body {
   max-width: unset;
 }
 
- /* insert code */
+.flex-container-04 {
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.flex-container-04 :nth-child(5) {
+  align-self: flex-start;
+}
 
 .flex-container-05 {
   flex-direction: column;
@@ -76,4 +102,13 @@ body {
   width: unset;
   max-width: unset;
 }
-  /* insert code */
+
+.flex-container-06 {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.flex-container-06 :nth-child(3) {
+  align-self: flex-end;
+}

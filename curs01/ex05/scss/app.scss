@@ -6,8 +6,10 @@ $Hover: magenta;
 $Active: pink;
 $Visited: lightcoral;
 
-.all-visited a {
-  text-decoration: line-through;
+a {
+  .all-visited & {
+    text-decoration: line-through;
+  }
 }
 
 ul {

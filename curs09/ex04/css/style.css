@@ -42,7 +42,14 @@
 }
 /* please do not modify this code */
 
-/* insert code */
+.flex-container-01 {
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.flex-container-01 .third {
+  align-self: center;
+}
 
 .flex-container-02 {
   justify-content: center;
@@ -62,7 +69,25 @@
 .flex-container-03 .flex-item:nth-of-type(2) {
   align-self: flex-start;
 }
-/* insert code */
+
+.flex-container-04 {
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.flex-container-04 :last-child {
+  align-self: center;
+}
+
+.flex-container-05 {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-container-05 #third-item {
+  align-self: stretch;
+  width: unset;
+}
 
 .flex-container-06 {
   justify-content: flex-end;

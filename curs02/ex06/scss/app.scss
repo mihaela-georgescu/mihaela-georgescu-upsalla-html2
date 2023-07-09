@@ -31,3 +31,9 @@ $spacings: (
     margin: $value;
   }
 }
+
+@each $spacing, $value in $spacings {
+  .p-#{$spacing} {
+    padding: $value;
+  }
+}

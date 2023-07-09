@@ -11,7 +11,43 @@
   }
 }
 
-/* insert code */
+.bar-02 {
+  animation: bar-02 8s linear;
+}
+@keyframes bar-02 {
+  0% {
+    width: 150px;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+.bar-03 {
+  animation: bar-03 12s ease-in;
+}
+@keyframes bar-03 {
+  0%,
+  100% {
+    width: 100%;
+  }
+
+  25% {
+    width: 75%;
+    background-color: yellow;
+  }
+
+  50% {
+    width: 200px;
+    background-color: red;
+  }
+
+  75% {
+    width: 5px;
+    background-color: blue;
+  }
+}
 
 .bar-04 {
   animation: bar-04 5s ease-out;
@@ -38,4 +74,40 @@
   }
 }
 
-/* insert code */
+.bar-05 {
+  animation: bar-05 8s linear;
+}
+@keyframes bar-05 {
+  0%,
+  100% {
+    width: 100%;
+  }
+
+  25% {
+    width: 500px;
+    background-color: red;
+  }
+
+  50% {
+    width: 75%;
+    background-color: green;
+  }
+
+  75% {
+    width: 500px;
+    background-color: orange;
+  }
+}
+
+.bar-06 {
+  animation: bar-06 4s ease-in;
+}
+@keyframes bar-06 {
+  0% {
+    width: 200px;
+  }
+
+  100% {
+    width: 100%;
+  }
+}

@@ -55,7 +55,11 @@ body {
   justify-content: flex-end;
 }
 
-/* insert code */
+.flex-container-02 {
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: space-evenly;
+}
 
 .flex-container-03 {
   flex-direction: column-reverse;
@@ -63,4 +67,20 @@ body {
   justify-content: space-between;
 }
 
-/* insert code */
+.flex-container-04 {
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.flex-container-05 {
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-container-06 {
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  justify-content: center;
+}
