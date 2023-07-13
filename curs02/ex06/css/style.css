@@ -34,36 +34,36 @@
   margin: 4px;
 }
 
-.m-sm {
-  margin: 8px;
-}
-
-.m-md {
-  margin: 16px;
-}
-
-.m-lg {
-  margin: 32px;
-}
-
-.m-xl {
-  margin: 64px;
-}
-
 .p-xs {
   padding: 4px;
+}
+
+.m-sm {
+  margin: 8px;
 }
 
 .p-sm {
   padding: 8px;
 }
 
+.m-md {
+  margin: 16px;
+}
+
 .p-md {
   padding: 16px;
 }
 
+.m-lg {
+  margin: 32px;
+}
+
 .p-lg {
   padding: 32px;
+}
+
+.m-xl {
+  margin: 64px;
 }
 
 .p-xl {

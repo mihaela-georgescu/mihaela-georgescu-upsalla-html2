@@ -16,15 +16,11 @@ $colors: (
   .btn-#{$colorName} {
     color: $colorValue;
   }
-}
 
-@each $colorName, $colorValue in $colors {
   .btn-bg-#{$colorName} {
     background-color: $colorValue;
   }
-}
 
-@each $colorName, $colorValue in $colors {
   .text-#{$colorName} {
     color: $colorValue;
   }
