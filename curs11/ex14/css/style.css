@@ -22,3 +22,53 @@
 }
 
 /* please do not modify this code */
+
+.grid-container {
+  max-width: 1280px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-areas:
+  'header'
+  'content'
+  'sidebar'
+  'footer';
+}
+
+.grid-container .grid-item-1 {
+  grid-area: header;
+}
+
+.grid-container .grid-item-2 {
+  grid-area: content;
+}
+
+.grid-container .grid-item-3 {
+  grid-area: sidebar;
+}
+
+.grid-container .grid-item-4 {
+  grid-area: footer;
+}
+
+@media (min-width: 521px) {
+  .grid-container {
+    grid-template-areas:
+    'header'
+    'sidebar'
+    'content'
+    'footer';
+  }
+}
+
+@media (min-width: 769px) {
+  .grid-container {
+    grid-template-areas:
+    'header header header'
+    'sidebar . content'
+    'footer footer footer';
+
+    grid-template-columns: 320px 25px 1fr;
+  }
+}
