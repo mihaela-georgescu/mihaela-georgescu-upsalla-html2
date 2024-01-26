@@ -32,9 +32,18 @@ body {
 
 /* pana in 576px inclusiv */
 @media (max-width: 576px) {
+  body {
+    padding: 15px;
+  }
+
+  .box-1 {
+    display: none;
+  }
+
   .box-2 {
     display: none;
   }
+
 }
 
 @media (max-width: 768px) {
@@ -48,6 +57,11 @@ body {
 }
 
 @media (max-width: 992px) {
+  .box-2 {
+    border-color: yellow;
+    color: white;
+  }
+
   .box-4 {
     display: none;
   }
@@ -55,6 +69,10 @@ body {
 
 /* de la 992px in sus - inclusiv */
 @media (min-width: 992px) {
+  .box-1 {
+    display: none;
+  }
+
   .box-3 {
     display: none;
   }
@@ -69,6 +87,10 @@ body {
   .box-5 {
     display: none;
   }
+
+  body > h3 {
+    display: none;
+  }
 }
 
 body > h1 {
@@ -79,5 +101,38 @@ body > h1 {
 @media (min-width: 600px) and (max-width:1200px) {
   body > h1 {
     display: block;
+  }
+}
+
+body > h2 {
+  display: none;
+}
+
+/* de la 500px pana la 1000px */
+@media (min-width: 500px) and (max-width: 1000px) {
+  body > h2 {
+    display: block;
+  }
+}
+
+body > h3 {
+  display: none;
+}
+
+@media (min-width: 576px) {
+  body > h3 {
+    display: block;
+  }
+}
+
+@media (min-width: 1000px) {
+  body > h3 {
+    color: red;
+  }
+}
+
+@media (min-width: 1200px) {
+  body > h3 {
+    display: none;
   }
 }
